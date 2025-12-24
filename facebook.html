@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook login or signup</title>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        display:flex;
+    }
+    .left{
+        width: 50vw;
+        height: 54.5vw;
+    }
+    .right{
+        width: 50vw;
+        height: 54.5vw;
+    }
+    .img{
+        width: 24vw;
+        height: 15vw;
+        margin-top: 10vw;
+        margin-left: 13vw;
+    }
+    .p{
+        margin-left: 14vw;
+        margin-top: 2vw;
+    }
+    .box{
+        border: 2px solid black;
+        width: 20vw;
+        height: 21vw;
+        margin-top: 10vw;
+        margin-left: 10vw;
+        border-radius: 10px;
+        padding: 2vw;
+    }
+    input[type="text"],input[type="password"]{
+        width: 20vw;
+        height: 3vw;
+        border-radius: 5px;
+        border: 0.5px solid gray;
+    }
+    input[type="text"]{
+        margin-bottom: 2vw
+    }
+    .btn{
+        height: 3.5vw;
+        margin-left: 0vw;
+        width: 20.2vw;
+        margin-top: 1.5vw;
+        background-color: rgb(20, 3, 3);
+        border: none;
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    a>:hover{
+        text-decoration: underline;
+    }
+    a{
+        font-size: 1.5vw;
+        text-decoration: none;
+        margin-left: 4.5vw;
+        cursor: pointer;
+        margin-top: 0.5pw;
+    }
+    .line{
+        margin-top: 1vw;
+        opacity: 0.4;
+    }
+    .btn1{
+        margin-top: 1vw;
+        background-color: greenyellow;
+        font-weight: 600;
+        width: 20vw;
+        height: 4vw;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .btn1:hover{
+        background-color: red;
+    }
+</style>
+    </head>
+    <body>
+        <div class="left">
+            <img src="facebook.jpg" alt="" class="img">
+            <p class="p">Facebook helps you connect and share <br> with the people in your life.</p>
+        </div>
+        <div class="right">
+            <div class="box">
+                <input type="text" placeholder="Username of Email ID">
+                <br>
+                <input type="password" placeholder="Enter password">
+                <button class="btn">Log in</button>
+                <a href="">Forgot Password</a>
+                <hr class="line">
+                <button class="btn1">Create new account</button>
+        </div>
+    </body>
+</html>
